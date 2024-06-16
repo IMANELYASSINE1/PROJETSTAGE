@@ -1,0 +1,2169 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+html {
+  overflow-x: hidden;
+  background: #fff;
+}
+a {
+  text-decoration: none;
+}
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: Montserrat;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 55px;
+  letter-spacing: -0.45px;
+  text-transform: uppercase;
+  padding-right: 120px;
+}
+
+header {
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  background: url(assets/bg.png);
+  background-position: center;
+  background-size: cover;
+  background-color: rgb(34, 26, 26);
+  padding: 1rem;
+}
+
+header .bar {
+  border-radius: 10px;
+  background: #d2b938;
+  padding: 1rem;
+}
+header .bar p {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+header .main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header .content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: auto;
+  padding: 1rem;
+}
+header .content .logo {
+  width: 160px;
+  height: auto;
+}
+header .content .logo img {
+  width: 100%;
+  height: 100%;
+  margin-top: 20px;
+}
+
+header .content p {
+  color: #d2b938;
+
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 77px; /* 320.833% */
+  letter-spacing: 0.24px;
+  text-transform: uppercase;
+}
+
+header h1 {
+  color: #fff;
+}
+
+header h1 span {
+  color: #d2b938;
+}
+
+.orang{
+    color: #d2b938;
+}
+header .content h2 {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+
+  text-transform: uppercase;
+}
+.under{
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
+}
+header .content h3 {
+  color: white;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0.18px;
+  text-transform: lowercase;
+}
+
+header .content button {
+  border-radius: 6px;
+  background: #d2b938;
+  color: #fff;
+  width: auto;
+  padding: 15px 60px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: fit-content;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+header .content button strong {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 33px;
+  font-style: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+header .image {
+  width: 400px;
+  height: 400px;
+}
+header .image img {
+  padding: 0px;
+  width: 520px;
+  height: 520px;
+  object-fit: contain;
+  border: solid 2px #d2b938;
+  border-radius: 1000px;
+  margin-right: 60px ;
+}
+.container-1 {
+  opacity: 0.51;
+  background: url('../assets/images/rectangle_3.png') 50% / cover no-repeat;
+  position: absolute;
+  left: -642px;
+  bottom: -753.3px;
+  width: auto;
+  height: auto;
+}
+
+.optin .container-2 {
+  opacity: 0.21;
+  background: url('../assets/images/rectangle_3.png') 50% / cover no-repeat;
+  position: absolute;
+  top: -536px;
+  right: -1093.2px;
+  width: auto;
+  height: auto;
+}
+.optin .mac-book-pro-162 {
+  opacity: 0.16;
+  position: relative;
+  width: auto;
+  height: auto;
+}
+.optin .container-1 {
+  background: #101010;
+  position: relative;
+  display: flex;
+  padding: 10px 6px 2px 0;
+  height: 923px;
+  box-sizing: border-box;
+}
+.optin .ellipse-5 {
+  filter: blur(192px);
+  border-radius: 128px;
+  background: rgba(210, 185, 56, 0.5);
+  position: absolute;
+  left: 0px;
+  bottom: 33px;
+  width: 256px;
+  height: 256px;
+}
+.optin .ellipse-4 {
+  filter: blur(192px);
+  border-radius: 125px;
+  background: rgba(210, 185, 56, 0.5);
+  position: absolute;
+  top: 119px;
+  right: 0px;
+  width: 250px;
+  height: 250px;
+}
+.optin .rectangle-3 {
+  background: url('../assets/images/rectangle_3.png') 50% / cover no-repeat;
+  position: absolute;
+  left: 21px;
+  right: 10px;
+  bottom: 0px;
+  height: 923px;
+}
+.optin .vous-croyez-encore-que-la-meilleure-solution-pour-perdre-du-poids-suivre-des-rgimes-faire-du-sport-vraiment {
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 900;
+  font-size: 21px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.optin .container-34 {
+  border-radius: 10px;
+  background: #D2B938;
+  position: absolute;
+  top: 10px;
+  right: 24px;
+  display: flex;
+  padding: 19px 28.9px 17px 21px;
+  box-sizing: border-box;
+}
+.optin .ellipse-41 {
+  filter: blur(192px);
+  border-radius: 125px;
+  background: rgba(210, 185, 56, 0.5);
+  position: absolute;
+  left: 131px;
+  top: 78px;
+  width: 250px;
+  height: 250px;
+}
+.optin .perte-de-poids {
+  position: absolute;
+  left: 82px;
+  bottom: 417px;
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 800;
+  font-size: 45px;
+  line-height: 1.711;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.optin .dcouvrez-3-secrets-bien-gard-spour-la {
+  position: absolute;
+  left: 94px;
+  top: 354px;
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 800;
+  font-size: 45px;
+  letter-spacing: -0.5px;
+  line-height: 1.222;
+  text-transform: uppercase;
+  color: #1E1E1E;
+}
+.dcouvrez-3-secrets-bien-gard-spour-la-sub119 {
+  font-family: 'Montserrat';
+  font-weight: 800;
+  font-size: 45px;
+  letter-spacing: -0.5px;
+  line-height: 1.333;
+  text-transform: uppercase;
+  color: #FBFBFB;
+}
+.dcouvrez-3-secrets-bien-gard-spour-la-sub118 {
+  font-family: 'Montserrat';
+  font-weight: 800;
+  font-size: 45px;
+  letter-spacing: -0.5px;
+  line-height: 1.333;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.dcouvrez-3-secrets-bien-gard-spour-la-sub117 {
+  font-family: 'Montserrat';
+  font-weight: 800;
+  font-size: 45px;
+  letter-spacing: -0.5px;
+  line-height: 1.333;
+  text-transform: uppercase;
+  color: #D2B938;
+}
+.dcouvrez-3-secrets-bien-gard-spour-la {
+  font-family: 'Montserrat';
+  font-weight: 800;
+  font-size: 45px;
+  letter-spacing: -0.5px;
+  line-height: 1.333;
+  text-transform: uppercase;
+  color: #FBFBFB;
+}
+.optin .avant-mme-lalimentation-et-le-sport {
+  position: absolute;
+  left: 95px;
+  bottom: 322px;
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 3.208;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.optin .sanscraquage-sans-se-priver-et-surtout-sans-effet-yo-yo {
+  position: absolute;
+  left: 98px;
+  bottom: 326px;
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 0.2px;
+  line-height: 4.278;
+  text-transform: lowercase;
+  color: #FFFFFF;
+}
+.sanscraquage-sans-se-priver-et-surtout-sans-effet-yo-yo-sub18 {
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 0.2px;
+  line-height: 1.333;
+  text-transform: lowercase;
+  color: #D2B938;
+}
+.sanscraquage-sans-se-priver-et-surtout-sans-effet-yo-yo-sub17 {
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 0.2px;
+  line-height: 1.333;
+  text-transform: lowercase;
+}
+.sanscraquage-sans-se-priver-et-surtout-sans-effet-yo-yo {
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 0.2px;
+  line-height: 1.333;
+  text-transform: lowercase;
+}
+.optin .confrence-live-offerte-jeudi-20-h {
+  position: absolute;
+  left: 97px;
+  top: 270px;
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 800;
+  font-size: 24px;
+  letter-spacing: 0.2px;
+  line-height: 3.208;
+  text-transform: uppercase;
+  color: #D2B938;
+}
+.optin .reborn-21-png-blanc-1 {
+  background: url('../assets/images/reborn_21_png_blanc_21.png') 50% / cover no-repeat;
+  position: absolute;
+  left: 82px;
+  top: 130px;
+  width: 192px;
+  height: 120px;
+}
+.optin .ellipse-3 {
+  border-radius: 313px;
+  position: absolute;
+  right: 117px;
+  bottom: 64px;
+  width: 626px;
+  height: 626px;
+}
+.optin .header-11 {
+  background: url('../assets/images/header_11.png') 50% / cover no-repeat;
+  position: absolute;
+  right: 151px;
+  bottom: 99px;
+  width: 542px;
+  height: 600px;
+}
+.optin .rectangle-7 {
+  border-radius: 8px;
+  background: #101010;
+  position: absolute;
+  top: 333px;
+  right: 117px;
+  width: 177px;
+  height: 87px;
+}
+.optin .jonathan-1 {
+  position: absolute;
+  top: 330px;
+  right: 145.2px;
+  overflow-wrap: break-word;
+  font-family: 'Six Caps';
+  font-weight: 400;
+  font-size: 66px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.optin .header {
+  position: relative;
+  margin: 0 94px 0 82px;
+  display: flex;
+  padding: 0 10px 0 21px;
+  width: 1471px;
+  height: 923px;
+  box-sizing: border-box;
+}
+.optin .lorem-ipsum-dolor-sit-amet-consectetur-3 {
+  margin: 0 3.3px 68px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #1E1E1E;
+}
+.optin .ellipse-257 {
+  border-radius: 9px;
+  background: #2F2F2F;
+  width: 18px;
+  height: 18px;
+}
+.optin .ellipse-258 {
+  border-radius: 9px;
+  background: #2F2F2F;
+  width: 18px;
+  height: 18px;
+}
+.optin .ellipse-259 {
+  border-radius: 9px;
+  background: #2F2F2F;
+  width: 18px;
+  height: 18px;
+}
+.optin .group-9552 {
+  margin-bottom: 4px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 102px;
+  box-sizing: border-box;
+}
+.optin .porctime {
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 0.7;
+  color: #2F2F2F;
+}
+.porctime {
+  font-family: 'Poppins';
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.333;
+  color: #2F2F2F;
+}
+.optin .group-9553 {
+  margin-top: 3px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+.optin .tre-king {
+  margin: 14px 0 8px 0;
+  display: inline-block;
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: 'Bebas Neue';
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 0.7;
+  color: #2F2F2F;
+}
+.optin .hdk {
+  margin-bottom: 22px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Vampiro One';
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 1.167;
+  color: #D2B938;
+}
+.optin .laces {
+  margin-bottom: 22px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Vampiro One';
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 1.167;
+  color: #2F2F2F;
+}
+.optin .kraken {
+  margin: 18px 0 32px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Anton';
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 0.583;
+  color: #2F2F2F;
+}
+.mask-group {
+    display: flexbox;
+    padding: 8px 15px 1.5px 0;
+    width: auto;
+    box-sizing: border-box;
+    margin-left: 320px;
+    margin-bottom: 100px;
+  }
+  .mask-group .calendrier-1 {
+    background: url('../assets/images/calendrier_1.png') 50% / cover no-repeat;
+    width: 76px;
+    height: 76px;
+  }
+  .mask-group .clock-1 {
+    background: url('../assets/images/clock_1.png') 50% / cover no-repeat;
+    width: 82px;
+    height: 82px;
+  }
+  .mask-group .facebook-1 {
+    background: url('../assets/images/facebook_1.png') 50% / cover no-repeat;
+    width: 78px;
+    height: 78px;
+  }
+  .mask-group .le-muscle-1 {
+    background: url('../assets/images/le_muscle_1.png') 50% / cover no-repeat;
+    width: 60px;
+    height: 60px;
+  }
+  .mask-group .rectangle-17 {
+    background: #D9D9D9;
+    margin-right: 8px;
+    width: 109px;
+    height: 6px;
+  }
+  .mask-group .rectangle-18 {
+    background: #D9D9D9;
+    width: 109px;
+    height: 6px;
+  }
+  .mask-group .container {
+    background: #F3F3F3;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 11.6px 0 10.6px;
+    box-sizing: border-box;
+  }
+  .mask-group .container-1 {
+    border-radius: 58px;
+    background: #D2B938;
+    position: absolute;
+    left: 576px;
+    top: 184px;
+    display: flex;
+    padding-left: 2px;
+    width: 116px;
+    height: 116px;
+    box-sizing: border-box;
+  }
+  .mask-group .container-2 {
+    border-radius: 58px;
+    background: #D2B938;
+    position: absolute;
+    left: 306px;
+    top: 194px;
+    display: flex;
+    padding: 20px;
+    width: 116px;
+    height: 116px;
+    box-sizing: border-box;
+  }
+  .mask-group .container-3 {
+    background: #F3F3F3;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 265px;
+  }
+  .mask-group .container-4 {
+    margin-bottom: 64px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 17px;
+    width: fit-content;
+    box-sizing: border-box;
+  }
+  .mask-group .container-5 {
+    background: #1E1E1E;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15.8px 0 20.8px;
+    box-sizing: border-box;
+  }
+  .mask-group .container-6 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  .mask-group .container-7 {
+    background: #F3F3F3;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 265px;
+  }
+  body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .mask-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 20px;
+    background-color: #fff;
+  }
+  
+  .title h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 33px;
+    text-transform: uppercase;
+    color: #000;
+    text-align: center;
+    margin: 0;
+    padding: 0px 320px;
+    line-height: 1.2;
+  }
+  
+  .title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: #000;
+    text-align: center;
+    margin: 5px 0 40px 0;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+  }
+  .tit{
+    padding-left: 100px;
+  }
+  
+  .item {
+    background: #F3F3F3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 250px;
+    height: 290px;
+    text-align: center;
+    border-radius: 0px;
+  }
+  
+  .item.dark {
+    background: #1E1E1E;
+    color: #fff;
+  }
+  
+  .item .icon {
+    background-size: cover;
+    width: 60px;
+    height: 60px;
+    margin-bottom: 15px;
+  }
+  
+  .calendrier-1 {
+    background: url('../assets/images/calendrier_1.png') no-repeat center;
+    margin-top: 12px;
+  }
+  
+  .le-muscle-1 {
+    background: url('../assets/images/le_muscle_1.png') no-repeat center;
+    margin-top: 12px;
+  }
+  
+  .replay-icon {
+    margin-top: 12px;
+    background: url('../assets/images/facebook_1.png') no-repeat center;
+  }
+  
+  .clock-1 {
+    margin-top: 12px;
+    background: url('../assets/images/clock_1.png') no-repeat center;
+  }
+  .cerc{
+    background-color: #D2B938;
+    padding: 0 12px 0px 12px;
+    border-radius: 5000px;
+  }
+  
+  .item h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: inherit;
+    margin: 10px 0;
+  }
+  
+  .item  {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: inherit;
+    margin: 0;
+  }
+  
+  .item.dark {
+    color: #D2B938;
+  }
+  
+  .item.dark p {
+    color: #fff;
+  }
+  
+  .mask-group .container-8 {
+    border-radius: 58px;
+    background: #D2B938;
+    position: absolute;
+    top: 184px;
+    right: 600px;
+    display: flex;
+    padding: 19px;
+    width: 116px;
+    height: 116px;
+    box-sizing: border-box;
+  }
+  .mask-group .container-9 {
+    margin-left: 1px;
+    display: flex;
+    flex-direction: row;
+    width: 226px;
+    box-sizing: border-box;
+  }
+  .mask-group .container-10 {
+    border-radius: 58px;
+    background: #D2B938;
+    position: absolute;
+    top: 178px;
+    right: 318px;
+    display: flex;
+    padding: 17px;
+    width: 116px;
+    height: 116px;
+    box-sizing: border-box;
+  }
+.optin .container-19 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1183px;
+  box-sizing: border-box;
+}
+.partenaires {
+  background: #F3F3F3;
+  position: relative;
+  margin: 0 104px 35px 103px;
+  margin-right: -120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: auto;
+  justify-content: center;
+  padding: 40px 131.8px 69px 125.1px;
+  box-sizing: border-box;
+}
+.optin .shape-31 {
+  opacity: 0.36;
+  background: url('../assets/images/shape_31.png') 50% / cover no-repeat;
+  transform: rotate(89.77deg);
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  width: 448px;
+  height: 590.5px;
+}
+.optin .shape-41 {
+  background: url('../assets/images/shape_41.png') 50% / cover no-repeat;
+  transform: rotate(-118.131deg);
+  position: absolute;
+  left: 0px;
+  bottom: 49.2px;
+  width: 380.2px;
+  height: 477.2px;
+}
+.optin .lorem-ipsum-dolor-sit-amet-consectetur {
+  margin-bottom: 19px;
+  display: inline-block;
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.125;
+  text-transform: uppercase;
+  color: #1E1E1E;
+}
+.optin .lorem-ipsum-dolor-sit-amet-consectetur-1 {
+  margin: 0 0 98px 1px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 22px;
+  letter-spacing: 2.2px;
+  text-transform: lowercase;
+  color: #1E1E1E;
+}
+.optin .jeudi {
+  margin: 0 6px 24px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 25px;
+  text-transform: uppercase;
+  color: #000000;
+}
+.optin .hheure-de-paris {
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-transform: lowercase;
+  color: #000000;
+}
+.optin .container-9 {
+  background: #F3F3F3;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 265px;
+}
+.optin .prsent-par-jonathan {
+  margin: 0 11px 19px 0;
+  display: inline-block;
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 0.96;
+  text-transform: uppercase;
+  color: #000000;
+}
+.optin .coach-sportif-depuis-18-ans-et-fondateur-de-reborn-21 {
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-transform: lowercase;
+  color: #000000;
+}
+.optin .container-2 {
+  background: #F3F3F3;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 11.6px 0 10.6px;
+  box-sizing: border-box;
+}
+.optin .replay {
+  margin: 0 4px 31px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 0.96;
+  text-transform: uppercase;
+  color: #D2B938;
+}
+.optin .soyez-prsent-cet-atelier-il-ny-aura-pas-de-replay {
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-transform: lowercase;
+  color: #FFFFFF;
+}
+.optin .container-10 {
+  background: #1E1E1E;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 15.8px 0 20.8px;
+  box-sizing: border-box;
+}
+.optin .dure {
+  margin: 0 12px 31px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 0.96;
+  text-transform: uppercase;
+  color: #1E1E1E;
+}
+.optin .minutes {
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-transform: lowercase;
+  color: #1E1E1E;
+}
+.optin .container {
+  background: #F3F3F3;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 265px;
+}
+.optin .container-31 {
+  margin-bottom: 64px;
+  display: flex;
+  flex-direction: row;
+  column-gap: 17px;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.optin .rectangle-17 {
+  background: #D9D9D9;
+  margin-right: 8px;
+  width: 109px;
+  height: 6px;
+}
+.optin .rectangle-18 {
+  background: #D9D9D9;
+  width: 109px;
+  height: 6px;
+}
+.optin .container-35 {
+  margin-left: 1px;
+  display: flex;
+  flex-direction: row;
+  width: 226px;
+  box-sizing: border-box;
+}
+.optin .container-24 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+.optin .calendrier-1 {
+  background: url('../assets/images/calendrier_1.png') 50% / cover no-repeat;
+  width: 76px;
+  height: 76px;
+}
+.optin .container-13 {
+  border-radius: 58px;
+  background: #D2B938;
+  position: absolute;
+  left: 306px;
+  top: 194px;
+  display: flex;
+  padding: 20px;
+  width: 116px;
+  height: 116px;
+  box-sizing: border-box;
+}
+.optin .le-muscle-1 {
+  background: url('../assets/images/le_muscle_1.png') 50% / cover no-repeat;
+  width: 60px;
+  height: 60px;
+}
+.optin .container-21 {
+  border-radius: 58px;
+  background: #D2B938;
+  position: absolute;
+  left: 576px;
+  top: 184px;
+  display: flex;
+  padding-left: 2px;
+  width: 116px;
+  height: 116px;
+  box-sizing: border-box;
+}
+.optin .facebook-1 {
+  background: url('../assets/images/facebook_1.png') 50% / cover no-repeat;
+  width: 78px;
+  height: 78px;
+}
+.optin .container-3 {
+  border-radius: 58px;
+  background: #D2B938;
+  position: absolute;
+  top: 184px;
+  right: 600px;
+  display: flex;
+  padding: 19px;
+  width: 116px;
+  height: 116px;
+  box-sizing: border-box;
+}
+.optin .clock-1 {
+  background: url('../assets/images/clock_1.png') 50% / cover no-repeat;
+  width: 82px;
+  height: 82px;
+}
+.optin .container-6 {
+  border-radius: 58px;
+  background: #D2B938;
+  position: absolute;
+  top: 178px;
+  right: 318px;
+  display: flex;
+  padding: 17px;
+  width: 116px;
+  height: 116px;
+  box-sizing: border-box;
+}
+.optin .sec-3 {
+  position: relative;
+  margin: 0 25px 102.5px 38px;
+  display: flex;
+  padding: 8px 15px 1.5px 0;
+  width: 1584px;
+  box-sizing: border-box;
+}
+.optin .rectangle-19 {
+  background: #D2B938;
+  margin-bottom: 26px;
+  align-self: flex-start;
+  width: 310px;
+  height: 113px;
+}
+.qui{
+  position: relative;
+  margin-top: -100px;
+  margin-right: 550px;
+  margin-bottom: 51px;
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 0.643;
+  text-transform: uppercase;
+  color: #D2B938;
+}
+.white{
+  color: white;
+}
+.qui-je-suis {
+  
+  position: relative;
+  margin-right: 550px;
+  margin-bottom: 111px;
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 70px;
+  line-height: 0.643;
+  text-transform: uppercase;
+  color: #1E1E1E;
+}
+.lorem{
+  padding: 0px 150px 0px 70px ;
+  margin: 0 20.4px 28px 20.4px;
+  display: inline-block;
+  text-align: justify;
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 300;
+  font-size: 23px;
+  line-height: 1.826;
+  color: #000000;
+}
+.duis{
+  margin: 0 15px;
+  padding: 0px 150px 0px 70px ;
+  text-align: justify;
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 300;
+  font-size: 23px;
+  line-height: 1.826;
+  color: #000000;
+}
+.optin .container-11 {
+  margin: 0 263.8px 60px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  box-sizing: border-box;
+}
+.optin .rectangle-15 {
+  background: #F0F0F0;
+  width: 515px;
+  height: 761px;
+}
+.optin .container-14 {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.optin .container {
+  background: url('../assets/images/image_2.png') 50% / cover no-repeat;
+  position: absolute;
+  top: 5px;
+  right: 0px;
+  width: 444px;
+  height: 600px;
+}
+.rectangle-16 {
+  background: #D2B938;
+  position: absolute;
+  right: -100px;
+  bottom: 33px;
+  width: 595px;
+  height: 195px;
+}
+.jonathan {
+  position: absolute;
+  right: -100px;
+  bottom: 0px;
+  font-family: 'Six Caps';
+  font-weight: 400;
+  font-size: 210px;
+  letter-spacing: 12.6px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.qui-je-suis-1 {
+  position: relative;
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 0.45;
+  text-transform: uppercase;
+  color: #D2B938;
+}
+.qui-je-suis-1-sub21 {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 1.333;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.qui-je-suis-2 {
+  position: relative;
+  margin: 0px;
+  display: flex;
+  padding-bottom: 34px;
+  box-sizing: border-box;
+}
+.optin .rectangle-200 {
+  background: #D2B938;
+  margin-right: 55px;
+  width: 64px;
+  height: 1055px;
+}
+.sec-secret .container0 {
+  background: #262626;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 166px 13.9px 23px 13.9px;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.sec-secret .container-200 {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1163px;
+  box-sizing: border-box;
+}
+.sec-secret {
+  padding-right: 1px;
+  width: 1441px;
+  box-sizing: border-box;
+}
+.sec-secret .dans-cette-confrence-je-vous-dvoile-3-secrets {
+  margin: 30px 20px 0px 270px;
+  position: relative;
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.125;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.sec-secret .rectangle-14 {
+  background: #D2B938;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  width: 64px;
+  height: 1055px;
+}
+.sec-secret .rectangle-20 {
+  background: #D2B938;
+  margin-right: 55px;
+  width: 64px;
+  height: 1055px;
+}
+.sec-secret .lorem-ipsum-dolor-sit-amet-consectetur {
+  margin: 0 0 34px 270px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 22px;
+  letter-spacing: 2.2px;
+  text-transform: lowercase;
+  color: #D2BD38;
+}
+.sec-secret .group-95560 {
+  position: relative;
+  margin-bottom: 35px;
+  padding: 61px 0.2px 403px 0.2px;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.sec-secret .secret-10 {
+  position: absolute;
+  right: 200px;
+  top: 240px;
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 68px;
+  letter-spacing: 6.8px;
+  line-height: 0.338;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.sec-secret .group-95550 {
+  position: absolute;
+  left: 50%;
+  bottom: 0px;
+  translate: -50% 0;
+  display: flex;
+  padding: 61px 75.4px 0 0;
+  box-sizing: border-box;
+}
+.sec-secret .secret-20 {
+  position: relative;
+  margin: 0 0.1px 17px 1.1px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 68px;
+  letter-spacing: 5.4px;
+  line-height: 0.338;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.sec-secret .secret-30 {
+  margin-bottom: 380px;
+  display: inline-block;
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 68px;
+  letter-spacing: 5.4px;
+  line-height: 0.338;
+  text-transform: uppercase;
+  color: #D2B938;
+}
+.sec-secret .la-raison-1-qui-explique-pourquoi-en-moyenne-les-femmes-qui-perdent-du-poids-reprennent-152-fois-le-poids-perdu {
+  margin-bottom: 11px;
+  display: inline-block;
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 1.5px;
+  line-height: 1.533;
+  text-transform: lowercase;
+  color: #D2B938;
+}
+.sec-secret .et-surtout-fragilise-leur-mtabolisme-et-donc-leur-capacit-future-perdre-de-nouveau {
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 300;
+  font-size: 15px;
+  letter-spacing: 1.5px;
+  line-height: 1.533;
+  text-transform: lowercase;
+  color: #FFFFFF;
+}
+.sec-secret .et-le-secret-surprenant-trs-facile-et-peu-connu-pour-arriver-acclrer-votre-mtabolisme-pour-enfin-pouvoir-vous-permettre-vos-repas-prfrs-sans-culpabilit {
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 300;
+  font-size: 15px;
+  letter-spacing: 1.5px;
+  line-height: 1.533;
+  text-transform: lowercase;
+  color: #FFFFFF;
+}
+.sec-secret .et-comment-la-plupart-des-rgimes-que-vous-fates-sont-justement-extrmement-nfastes-pour-votre-sant {
+  position: relative;
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 300;
+  font-size: 15px;
+  letter-spacing: 1.5px;
+  line-height: 1.533;
+  text-transform: lowercase;
+  color: #FFFFFF;
+}
+.sec-secret .pourquoi-les-dites-restrictives-ralentissent-presque-toujours-le-mtabolisme {
+  margin: 0 13.4px 13px 13.4px;
+  display: inline-block;
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 1.5px;
+  line-height: 1.533;
+  text-transform: lowercase;
+  color: #D2B938;
+}
+.sec-secret .mockup-21 {
+  background: url('../assets/images/mockup_21.png') 50% / cover no-repeat;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 230px;
+  height: 240.7px;
+}
+.sec-secret .comment-votre-niveau-de-sant-gnral-dtermine-votre-efficacit-brler-des-graisses-au-repos {
+  position: absolute;
+  left: 50%;
+  bottom: 128px;
+  translate: -50% 0;
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 1.5px;
+  line-height: 1.533;
+  text-transform: lowercase;
+  color: #D2B938;
+}
+.sec-secret .mockup-31 {
+  background: url('../assets/images/mockup_31.png') 50% / cover no-repeat;
+  position: absolute;
+  left: 0px;
+  top: 9px;
+  width: 230px;
+  height: 232px;
+}
+.sec-secret .mockup-11 {
+  background: url('../assets/images/mockup_11.png') 50% / cover no-repeat;
+  position: absolute;
+  top: 5px;
+  right: 0px;
+  width: 236.6px;
+  height: 240px;
+}
+.sec-secret .inscrivez-vous-maintenant {
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 31px;
+  line-height: 2.484;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.sec-secret .conf-rence-offerte-en-ligne {
+  position: absolute;
+  left: 566px;
+  bottom: 220px;
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 3.85;
+  text-transform: lowercase;
+  color: #FFFFFF;
+}
+.sec-secret .container-2 {
+  border: 1px solid #D2B938;
+  background: #262626;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  display: flex;
+  padding: 0 14.1px 38px 24.1px;
+  height: 386px;
+  box-sizing: border-box;
+}
+.sec-secret .container-30 {
+  background: #262626;
+  position: relative;
+  margin: 40px 69px 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 166px 10.3px 25px 14.3px;
+  box-sizing: border-box;
+}
+.sec-secret .container-40 {
+  border-radius: 6px;
+  background: #D2B938;
+  position: relative;
+  margin-left: 18px;
+  display: flex;
+  padding: 0 34.1px 19px 16px;
+  box-sizing: border-box;
+}
+.sec-secret .container-50 {
+  margin-right: 109.4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+.sec-secret .container-60 {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  width: 70%;
+}
+.sec-secret .container-700 {
+  background: #1E1E1E;
+  position: relative;
+  box-sizing: border-box;
+}
+.sec-secret .container-800 {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.optin .lorem-ipsum-dolor-sit-amet-consectetur-2 {
+  margin: 0 0 34px 39px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 22px;
+  letter-spacing: 2.2px;
+  text-transform: lowercase;
+  color: #D2BD38;
+}
+.optin .secret-1 {
+  position: relative;
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 68px;
+  letter-spacing: 6.8px;
+  line-height: 0.338;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.optin .la-raison-1-qui-explique-pourquoi-en-moyenne-les-femmes-qui-perdent-du-poids-reprennent-152-fois-le-poids-perdu {
+  margin-bottom: 11px;
+  display: inline-block;
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 1.5px;
+  line-height: 1.533;
+  text-transform: lowercase;
+  color: #D2B938;
+}
+.optin .et-surtout-fragilise-leur-mtabolisme-et-donc-leur-capacit-future-perdre-de-nouveau {
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 300;
+  font-size: 15px;
+  letter-spacing: 1.5px;
+  line-height: 1.533;
+  text-transform: lowercase;
+  color: #FFFFFF;
+}
+.optin .container-25 {
+  background: #262626;
+  position: relative;
+  margin: 40px 69px 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 166px 10.3px 25px 14.3px;
+  box-sizing: border-box;
+}
+.optin .secret-2 {
+  position: relative;
+  margin: 0 0.1px 17px 1.1px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 68px;
+  letter-spacing: 5.4px;
+  line-height: 0.338;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.optin .pourquoi-les-dites-restrictives-ralentissent-presque-toujours-le-mtabolisme {
+  margin: 0 13.4px 13px 13.4px;
+  display: inline-block;
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 1.5px;
+  line-height: 1.533;
+  text-transform: lowercase;
+  color: #D2B938;
+}
+.optin .et-le-secret-surprenant-trs-facile-et-peu-connu-pour-arriver-acclrer-votre-mtabolisme-pour-enfin-pouvoir-vous-permettre-vos-repas-prfrs-sans-culpabilit {
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 300;
+  font-size: 15px;
+  letter-spacing: 1.5px;
+  line-height: 1.533;
+  text-transform: lowercase;
+  color: #FFFFFF;
+}
+.optin .container-32 {
+  background: #262626;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 166px 13.9px 23px 13.9px;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.optin .container-27 {
+  margin-right: 109.4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+.optin .secret-3 {
+  margin-bottom: 380px;
+  display: inline-block;
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 68px;
+  letter-spacing: 5.4px;
+  line-height: 0.338;
+  text-transform: uppercase;
+  color: #D2B938;
+}
+.optin .container-20 {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.optin .et-comment-la-plupart-des-rgimes-que-vous-fates-sont-justement-extrmement-nfastes-pour-votre-sant {
+  position: relative;
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 300;
+  font-size: 15px;
+  letter-spacing: 1.5px;
+  line-height: 1.533;
+  text-transform: lowercase;
+  color: #FFFFFF;
+}
+.optin .comment-votre-niveau-de-sant-gnral-dtermine-votre-efficacit-brler-des-graisses-au-repos {
+  position: absolute;
+  left: 50%;
+  bottom: 128px;
+  translate: -50% 0;
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 1.5px;
+  line-height: 1.533;
+  text-transform: lowercase;
+  color: #D2B938;
+}
+.optin .container-33 {
+  border: 1px solid #D2B938;
+  background: #262626;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  display: flex;
+  padding: 0 14.1px 38px 24.1px;
+  height: 386px;
+  box-sizing: border-box;
+}
+.optin .mockup-21 {
+  background: url('../assets/images/mockup_21.png') 50% / cover no-repeat;
+  position: absolute;
+  top: 0px;
+  right: 458px;
+  width: 230px;
+  height: 240.7px;
+}
+.optin .mockup-11 {
+  background: url('../assets/images/mockup_11.png') 50% / cover no-repeat;
+  position: absolute;
+  top: 5px;
+  right: 66.4px;
+  width: 236.6px;
+  height: 240px;
+}
+.optin .mockup-31 {
+  background: url('../assets/images/mockup_31.png') 50% / cover no-repeat;
+  position: absolute;
+  left: 61px;
+  top: 9px;
+  width: 230px;
+  height: 232px;
+}
+
+.optin .inscrivez-vous-maintenant {
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 31px;
+  line-height: 2.484;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.optin .container-28 {
+  border-radius: 6px;
+  background: #D2B938;
+  position: relative;
+  margin-left: 18px;
+  display: flex;
+  padding: 0 34.1px 19px 16px;
+  box-sizing: border-box;
+}
+.optin .container-7 {
+  margin: 44px 0 229px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1163px;
+  box-sizing: border-box;
+}
+.optin .container-4 {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.optin .conf-rence-offerte-en-ligne {
+  position: absolute;
+  left: 566px;
+  bottom: 220px;
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 3.85;
+  text-transform: lowercase;
+  color: #FFFFFF;
+}
+.optin .container-26 {
+  background: #1E1E1E;
+  position: relative;
+  box-sizing: border-box;
+}
+.optin .rectangle-14 {
+  background: #D2B938;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  width: 64px;
+  height: 1055px;
+}
+.sec-secret {
+  position: relative;
+  width: 105%;
+  padding-right: 1px;
+}
+.optin .tmoignages-1 {
+  margin-bottom: 5px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 63px;
+  line-height: 0.952;
+  color: #FFFFFF;
+}
+.optin .tmoignages {
+  margin: 0 582.3px 490px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 63px;
+  line-height: 0.952;
+  color: #D2B938;
+}
+.optin .lorem-ipsum {
+  margin-left: 14.3px;
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 33px;
+  line-height: 1;
+  color: #D2B938;
+}
+.optin .lorem-ipsum-dolor-sit-amet {
+  margin-left: 13.8px;
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 1.737;
+  color: #FFFFFF;
+}
+.optin .container-16 {
+  background: #1E1E1E;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 14px 76px 23px 76px;
+  box-sizing: border-box;
+}
+.optin .rectangle-106 {
+  border-radius: 39px;
+  background: linear-gradient(rgba(0, 0, 0, 0.56), rgba(0, 0, 0, 0.56)), url('../assets/images/rectangle_106.png') 50% / cover no-repeat;
+  margin: 39px 0 39.7px 0;
+  width: 458px;
+  height: 333px;
+}
+.optin .rectangle-107 {
+  border-radius: 33px;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../assets/images/rectangle_107.png') 50% / cover no-repeat;
+  width: 647px;
+  height: 411.7px;
+}
+.optin .rectangle-105 {
+  border-radius: 39px;
+  background: linear-gradient(rgba(0, 0, 0, 0.56), rgba(0, 0, 0, 0.56)), url('../assets/images/rectangle_105.png') 50% / cover no-repeat;
+  margin: 39px 0 39.7px 0;
+  width: 458px;
+  height: 333px;
+}
+.optin .container-8 {
+  margin-bottom: 2px;
+  display: flex;
+  flex-direction: row;
+  column-gap: 2px;
+  width: 1647px;
+  box-sizing: border-box;
+}
+.optin .ellipse-71 {
+  width: 18.4px;
+  height: 18.4px;
+}
+.optin .slider {
+  margin-right: 16.4px;
+  display: flex;
+  width: 18.4px;
+  height: 18.4px;
+  box-sizing: border-box;
+}
+.optin .ellipse-72 {
+  margin-right: 18.4px;
+  width: 18.4px;
+  height: 18.4px;
+}
+.optin .ellipse-73 {
+  margin-right: 18px;
+  width: 18.4px;
+  height: 18.4px;
+}
+.optin .ellipse-74 {
+  width: 18.4px;
+  height: 18.4px;
+}
+.optin .container-5 {
+  margin-left: 3.4px;
+  display: flex;
+  flex-direction: row;
+  width: 126.4px;
+  box-sizing: border-box;
+}
+
+.optin .temignages {
+  position: relative;
+  padding: 0 100px 0 100px;
+  box-sizing: border-box;
+}
+.optin .reborn-21-png-blanc-2 {
+  background: url('../assets/images/reborn_21_png_blanc_21.png') 50% / cover no-repeat;
+  margin-bottom: 23px;
+  width: 192px;
+  height: 120px;
+}
+.optin .avertissement-le-contenu-de-ce-programme-est-votre-disposition-titre-dinformation-uniquement-et-ne-reflte-que-lexprience-personnelle-de-son-auteur-bien-que-diplom-et-certifi-lauteur-et-tout-contenu-propos-dans-le-programme-et-sur-ce-site-ne-sauraittre-considr-commemanant-dun-professionnel-de-la-sant-titre-dexemple-mais-liste-non-exhaustive-mdecin-nutritionniste-ditticien-psychologue-psychiatre-ce-site-ne-fait-pas-partie-du-site-you-tube-google-facebook-google-inc-ou-facebook-inc-de-plus-ce-site-nest-pas-approuv-par-you-tube-google-ou-facebook-en-aucune-faon-facebook-est-une-marque-de-commerce-de-facebook-inc-google-et-youtube-sont-des-marques-de-commerce-de-google-inc {
+  margin-bottom: 39px;
+  display: inline-block;
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #1E1E1E;
+}
+.mentions-lgales-politique-de-confidentialit-cgv-reborn-21-copyright-2022-tous-droits-rservs-sub41 {
+  font-family: 'Montserrat';
+  font-weight: 800;
+  font-size: 13px;
+  line-height: 1.333;
+  color: #1E1E1E;
+}
+.mentions-lgales-politique-de-confidentialit-cgv-reborn-21-copyright-2022-tous-droits-rservs-sub40 {
+  font-family: 'Montserrat';
+  font-weight: 800;
+  font-size: 13px;
+  text-decoration-line: underline;
+  line-height: 1.333;
+  color: #1E1E1E;
+}
+.mentions-lgales-politique-de-confidentialit-cgv-reborn-21-copyright-2022-tous-droits-rservs {
+  font-family: 'Montserrat';
+  font-weight: 800;
+  font-size: 13px;
+  line-height: 1.333;
+  color: #1E1E1E;
+}
+.optin .mentions-lgales-politique-de-confidentialit-cgv-reborn-21-copyright-2022-tous-droits-rservs {
+  margin-left: 1px;
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 0.769;
+  color: #A07EFF;
+}
+.mentions-lgales-politique-de-confidentialit-cgv-reborn-21-copyright-2022-tous-droits-rservs-sub42 {
+  font-family: 'Montserrat';
+  font-weight: 800;
+  font-size: 13px;
+  text-decoration-line: underline;
+  line-height: 1.333;
+  color: #1E1E1E;
+}
+.optin .footer {
+  background: #D2B938;
+  position: relative;
+  margin: 0 104px 0 103px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 29px 0 94px 0;
+  box-sizing: border-box;
+}
+.optin .container-30 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 1647px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.optin .ellipse-51 {
+  filter: blur(192px);
+  border-radius: 128px;
+  background: rgba(210, 185, 56, 0.5);
+  position: absolute;
+  left: -3px;
+  top: 688px;
+  width: 256px;
+  height: 256px;
+}
+.optin .inscrivez-vous-maintenant-2 {
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 31px;
+  line-height: 2.484;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.optin .container-29 {
+  border-radius: 6px;
+  background: #D2B938;
+  position: absolute;
+  left: 77px;
+  top: 683px;
+  display: flex;
+  padding: 0 34.1px 19px 16px;
+  box-sizing: border-box;
+}
+.optin .conf-rence-offerte-en-ligne-2 {
+  position: absolute;
+  left: 213px;
+  top: 711px;
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 3.85;
+  text-transform: lowercase;
+  color: #FFFFFF;
+}
+.optin .reborn {
+  opacity: 0.13;
+  border: 1px solid #000000;
+  margin-bottom: 70px;
+  display: inline-block;
+  align-self: flex-start;
+  text-align: center;
+  overflow-wrap: break-word;
+}
+.optin .mode-isolation-3 {
+  margin: 0 0 6.8px 931.2px;
+  align-self: center;
+  width: 48.5px;
+  height: 48.5px;
+}
+.optin .mode-isolation {
+  margin-bottom: 63.4px;
+  width: 48.5px;
+  height: 48.5px;
+}
+.optin .vector-1 {
+  filter: blur(10.5px);
+  margin-top: 24.7px;
+  width: 808.7px;
+  height: 87.1px;
+}
+.optin .container-17 {
+  margin: 0 47.6px 19.9px 47.6px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: flex-start;
+  width: 1009.5px;
+  box-sizing: border-box;
+}
+.optin .rejoignez-nous-pour-cette-conf-rence-live-offerte {
+  margin: 9px 132.1px 0 0;
+  display: inline-block;
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 62px;
+  line-height: 1.032;
+  text-transform: uppercase;
+  color: #D2B938;
+}
+.optin .mode-isolation-2 {
+  margin-bottom: 98.5px;
+  width: 38.5px;
+  height: 38.5px;
+}
+.optin .container-18 {
+  margin-bottom: 14px;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-end;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.optin .et-apprenez-transformer-votre-corps-en-machine-brler-des-graisses-vous-changerez-votre-vie {
+  margin: 0 132px 9px 132px;
+  align-self: flex-start;
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1.406;
+  color: #1E1E1E;
+}
+.et-apprenez-transformer-votre-corps-en-machine-brler-des-graisses-vous-changerez-votre-vie-sub51 {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.333;
+}
+.et-apprenez-transformer-votre-corps-en-machine-brler-des-graisses-vous-changerez-votre-vie-sub50 {
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1.333;
+}
+.et-apprenez-transformer-votre-corps-en-machine-brler-des-graisses-vous-changerez-votre-vie {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.333;
+}
+.optin .mode-isolation-1 {
+  margin-bottom: 56.5px;
+  width: 48.5px;
+  height: 48.5px;
+}
+.optin .inscrivez-vous-maintenant-1 {
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 31px;
+  line-height: 2.484;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.optin .container-23 {
+  border-radius: 6px;
+  background: #D2B938;
+  position: relative;
+  margin-top: 9px;
+  display: flex;
+  padding: 0 34.1px 19px 16px;
+  box-sizing: border-box;
+}
+.optin .container-12 {
+  margin: 0 130.3px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: flex-start;
+  width: 805px;
+  box-sizing: border-box;
+}
+.optin .container-15 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.optin .conf-rence-offerte-en-ligne-1 {
+  position: absolute;
+  left: 566px;
+  bottom: 35px;
+  overflow-wrap: break-word;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 3.85;
+  text-transform: lowercase;
+  color: #FFFFFF;
+}
+.optin .container-22 {
+  background: #F3F3F3;
+  position: absolute;
+  left: 0 ;
+  bottom: 1144px;
+  translate: 0;
+  display: flex;
+  padding: 76px 48.5px 44px 53.7px;
+  box-sizing: border-box;
+}
+.optin .reborn-1 {
+  opacity: 0.13;
+  border: 1px solid #000000;
+  position: absolute;
+  right: -305.3px;
+  bottom: 1796px;
+  text-align: center;
+  overflow-wrap: break-word;
+}
+.optin .mockup-copie-1 {
+  background: url('../assets/images/mockup_copie_1.png') 50% / cover no-repeat;
+  position: absolute;
+  left: 0;
+  bottom: -2200px;
+  translate:  0;
+  width: 904px;
+  height: 594px;
+}
+.optin {
+  background: #FFFFFF;
+  display: flex;
+  box-sizing: border-box;
+}
