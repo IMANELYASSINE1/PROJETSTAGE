@@ -1171,7 +1171,7 @@ html {
   box-sizing: border-box;
 }
 .optin .container {
-  background: url("../assets/images/image_2.png") 50% / cover no-repeat;
+  background: url("./assets/images/image_2.png") 50% / cover no-repeat;
   position: absolute;
   top: 5px;
   right: 0px;
